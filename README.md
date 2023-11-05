@@ -2,7 +2,7 @@
 Public Repository containing SQL Queries for the TPC-H Benchmark.<br><br>
 
 ### Files Containing the SQL Queries and their metadata
-Packs of 1000 queries are generated as `.csv` files ready to be executed with jMeter (for automatically collecting the query completion/success and the query duration.<br>
+Packs of 1000 queries are generated as `.csv` files ready to be executed with jMeter (for automatically collecting the query completion/success and the query duration).<br>
 Separated files (`.xlsx`) provide the query's metadata (e.g., number of joins, of predicates, of grouping attributes, etc.)
 
 ### Supported SQL dialects
