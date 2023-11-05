@@ -1,5 +1,12 @@
 * For a typical SQL query, see:
-* Vocabulary:
+
+
+* Terminology: 
+- Join path
+- inner join
+- right outer join
+- ...
+
 * Papers describind and using previous and current versions of the query sets:
   -
   - 
