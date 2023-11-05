@@ -7,7 +7,7 @@
 - right outer join
 - ...
 
-* Papers describind and using previous and current versions of the query sets:
-  -
-  - 
-  -   
+* Papers describing the terminology:
+-
+-
+-
