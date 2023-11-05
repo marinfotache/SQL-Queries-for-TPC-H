@@ -13,11 +13,11 @@ In progress: Apache Spark (each individual query generated as a text file).
 Each query set (in a .csv file) contains 1000 queries for one of the following scale factors: 0.01GB, 1GB, 2GB, 5GB, 10GB, 50GB, 100GB, 200GB, 1000GB, 2000GB 
 
 ### Vocabulary
-For query structure and main vocabulary, see `_query_template` section
+For query structure and main vocabulary, see section [_query_template] ()
 
 ### Main scenarios for query generation
 Each query set is generated following a specific scenario which basically sets up the query complexity.<br>
-For details, see section [_scenarios](https://1drv.ms/v/s!AgPvmBEDzTOSitoIaNVx3kQboMWJWA?e=AauM6b)
+For details, see section [_scenarios_for_query_generation](https://1drv.ms/v/s!AgPvmBEDzTOSitoIaNVx3kQboMWJWA?e=AauM6b](https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/_scenarios_for_query_generation)
 
 ### Resources:
 
