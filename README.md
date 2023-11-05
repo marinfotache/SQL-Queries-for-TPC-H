@@ -14,7 +14,7 @@ Each query set (in a .csv file) contains 1000 queries for one of the following s
 
 ### Vocabulary
 For the query structure and the main vocabulary (used for defining the scenarios for query generation), see section [_query_template](https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/_query_template)
-
+![a_pg_query.png](https://github.com/marinfotache/SQL-Queries-for-TPC-H/blob/main/_query_template/a_pg_query.png)
 
 ### Main scenarios for query generation
 Each query set is generated following a specific scenario which basically controls the query complexity.<br>
