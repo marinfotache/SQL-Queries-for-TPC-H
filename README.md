@@ -17,7 +17,7 @@ For query structure and main vocabulary, see section [_query_template](https://g
 
 ### Main scenarios for query generation
 Each query set is generated following a specific scenario which basically sets up the query complexity.<br>
-For details, see section [_scenarios_for_query_generation](https://1drv.ms/v/s!AgPvmBEDzTOSitoIaNVx3kQboMWJWA?e=AauM6b](https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/_scenarios_for_query_generation)
+For details, see section [_scenarios_for_query_generation](https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/_scenarios_for_query_generation)
 
 ### Resources:
 
