@@ -16,7 +16,8 @@ Each query set (in a .csv file) contains 1000 queries for one of the following s
 For query structure and main vocabulary, see `_query_template` section
 
 ### Main scenarios for query generation
-
+Each query set is generated following a specific scenario which basically sets up the query complexity.<br>
+For details, see section [_scenarios](https://1drv.ms/v/s!AgPvmBEDzTOSitoIaNVx3kQboMWJWA?e=AauM6b)
 
 ### Resources:
 
