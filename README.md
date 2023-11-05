@@ -16,15 +16,15 @@ Each query set (in a .csv file) contains 1000 queries for one of the following s
 For query structure and main vocabulary, see section [_query_template](https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/_query_template)
 
 ### Main scenarios for query generation
-Each query set is generated following a specific scenario which basically sets up the query complexity.<br>
+Each query set is generated following a specific scenario which basically controls the query complexity.<br>
 For details, see section [_scenarios_for_query_generation](https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/_scenarios_for_query_generation)
 
 ### Resources:
 
-* TPC-H Benchmark home page:
-* 
-* Other papers using the previous and the current versions of the query generator:
-  -
-  -
-  -
+  * TPC-H Benchmark home page:
+  
+  * Other papers using the previous and the current versions of the query generator:
+    -
+    -
+    -
   
