@@ -6,5 +6,7 @@ For Apache Spark, each individual query is generated as text file.
 
 Each 1000-query set is generated for a specific scale factor (database size) following a specific scenario which describes the query complexity/limits.
 
+
+
 Main scenarios:
 - 
