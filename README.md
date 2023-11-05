@@ -1,5 +1,5 @@
 ## SQL-Queries-for-TPC-H
-Public Repository containing SQL Queries for the TPC-H Benchmark.<br>
+Public Repository containing SQL Queries for the TPC-H Benchmark.<br><br>
 
 ### Files Containing the SQL Queries and the metadata
 Packs of 1000 queries are generated as `.csv` files ready to be executed with jMeter (for automatically collecting the query completion/success and the query duration.<br>
