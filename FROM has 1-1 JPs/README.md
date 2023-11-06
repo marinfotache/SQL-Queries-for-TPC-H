@@ -8,7 +8,7 @@ For Apache Spark, each individual query is generated as text file.
 Each 1000-query set is generated for a specific scale factor (database size) following a specific scenario which describes the query complexity/limits.
 </p>
 
-<p style="font-family: times, serif; font-size:14pt; font-style:italic">
+<p style="font-family: times, serif; font-size:24pt; font-style:bold">
 Main scenarios:
 - 
 </p>
