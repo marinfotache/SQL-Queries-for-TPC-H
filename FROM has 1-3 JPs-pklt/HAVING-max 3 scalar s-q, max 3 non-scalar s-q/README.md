@@ -1,4 +1,3 @@
-
 <br>### Parameters defininig the current scenario are:
 <br>    - FROM has 1-3 JPs-pklt
 <br>    - the join paths are joined only by the primary key of the linking tables
