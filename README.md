@@ -23,9 +23,13 @@ For details, see section [_scenarios_for_query_generation](https://github.com/ma
 ### Resources:
   * TPC-H Benchmark home page:
   * jMeter home page:
+
   
 ### Other papers using the previous and the current versions of the query generator:
     -
     -
     -
+
+### Acknowledgement:
+Physical resources for deploying the query generator of this repository were provided by the Competitiveness Operational Program Romania, under project SMIS 124759 - RaaS-IS (Research as a Service Iasi).
   
