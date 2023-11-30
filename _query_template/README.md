@@ -65,14 +65,14 @@
 * _WHERE_n_of_non_aggr_func__TRUNC_ - number of times function `TRUNC` appears in main WHERE
 * _WHERE_n_of_all_non_aggr_func_ - total number of non-aggregate functions appearing in the main WHERE
   
-* GROUP_BY_n_of_columns                         <dbl> 5, 4, 6, 0, 0, 9, 0, 5, 2, 7, 1, 3, 1, 1, 3, 6, 3, 2, 1, ~
-* HAVING_n_of_main_predicates                   <dbl> 1, 1, 3, 0, 0, 3, 0, 0, 2, 3, 2, 0, 3, 2, 1, 2, 2, 1, 1, ~
-* HAVING_n_of_main_predicates__non_scalar_subquery <dbl> 2, 1, 0, 0, 2, 0, 2, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, ~
-* HAVING_n_of_main_predicates__scalar_subquery     <dbl> 1, 3, 3, 1, 2, 0, 0, 0, 3, 2, 0, 0, 0, 0, 0, 3, 0, 0, ~
-* HAVING_n_of_subqueries__non_scalar_subquery      <dbl> 2, 1, 0, 0, 2, 0, 2, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, ~
-* HAVING_n_of_subqueries__scalar_subquery          <dbl> 1, 10, 8, 1, 2, 0, 0, 0, 14, 2, 0, 0, 0, 0, 0, 3, 0, 0~
-* HAVING_n_of_processed_rows_by_subqueries         <dbl> 1047300, 859925, 1640240, 101345, 120, 0, 375820, 0, 1~
+* _GROUP_BY_n_of_columns_ - number of columns appearing in the main GROUP BY clause
 
-* ORDER_BY_n_of_columns                         <dbl> 1, 2, 0, 0, 0, 2, 1, 1, 1, 2, 1, 2, 1, 1, 1, 3, 1, 1, 1, ~
-* limit                                         <dbl> 328, 983, 400, 541, 153, 89, 462, 967, 443, 57, 734, 207,~
-* offset                                        <dbl> 0, 558, 561, 198, 0, 0, 0, 94, 826, 0, 0, 0, 378, 0, 45, ~
+* _HAVING_n_of_main_predicates_ - number of predicates appearing in the HAVING clause
+* _HAVING_n_of_main_predicates__non_scalar_subquery_ - number of predicates in HAVING which use as arguments one or more non-scalar subqueries
+* _HAVING_n_of_main_predicates__scalar_subquery_ - number of predicates in HAVING which use as arguments one or more scalar subqueries
+* _HAVING_n_of_subqueries__non_scalar_subquery_ - number of all non-scalar subqueries appearing in HAVING
+* _HAVING_n_of_subqueries__scalar_subquery_ - number of all scalar subqueries appearing in HAVING
+
+* _ORDER_BY_n_of_columns_ - number of columns appearing in the ORDER BY clause
+* _offset_ - number of records to be skipped at the beginning of the query results
+* _limit_ - number of records to be included in the query result
