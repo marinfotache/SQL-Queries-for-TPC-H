@@ -6,8 +6,9 @@
 * _query_id_ - unique identifier of the query                                      
 * _scale_factor_ - the database size                                 
 * _scenario_ - see `_scenarios_for_query_generation` section                                     
-* _SELECT_n_of_columns_ - number of columns declared in main SELECT (number of columns in the query result)                         
-* _SELECT_n_of_non_aggr_func__UPPER_ - number of times function `UPPER` appears in the main SELECT clause               
+*
+* _SELECT_n_of_columns_ - number of columns declared in main SELECT (number of columns in the query result)                     
+* _SELECT_n_of_non_aggr_func__UPPER_ - number of times the (non-aggregate) function `UPPER` appears in the main SELECT clause               
 * _SELECT_n_of_non_aggr_func__LOWER_ - number of times function `LOWER` appears in main SELECT                
 * _SELECT_n_of_non_aggr_func__LTRIM_ - number of times function `LTRIM` appears in main SELECT                 
 * _SELECT_n_of_non_aggr_func__SUBSTR_ - number of times function `SUBSTR` appears in main SELECT    
@@ -29,7 +30,8 @@
 * _SELECT_n_of_aggr_func__MAX_ - number of times the aggregate function `MAX` appears in main SELECT  
 * _SELECT_n_of_aggr_func__SUM_  - number of times the aggregate function `SUM` appears in main SELECT 
 * _SELECT_n_of_aggr_func__COUNT_DISTINCT_ - number of times the aggregate function `COUNT DISTINCT` appears in main SELECT  
-* _SELECT_n_of_all_aggr_func_ - number of aggregate functions appearing in the main SELECT   
+* _SELECT_n_of_all_aggr_func_ - total number of aggregate functions appearing in the main SELECT
+*
 * _FROM_n_of_join_paths_ - number of join paths included in the main FROM clause
 * _FROM_n_of_super_joins__FULL_ - number of times the join paths are FULL OUTER JOIN-ed in the main FROM clause
 * _FROM_n_of_super_joins__LEFT_ - number of times the join paths are LEFT OUTER JOIN-ed in the main FROM clause
@@ -37,31 +39,40 @@
 * _FROM_n_of_joins__INNER_ - number of INNER JOINs in the main FROM clause
 * _FROM_n_of_joins__RIGHT_ - number of RIGHT OUTER JOINs in the main FROM clause
 * _FROM_n_of_processed_rows_ - total number of records for all tables appearing in the main FROM clause
-* WHERE_n_of_predicates                         <dbl> 9, 1, 5, 7, 8, 7, 2, 7, 5, 4, 6, 3, 2, 1, 0, 7, 8, 8, 3, ~
-* WHERE_n_of_attribs_of_type__character_varying <dbl> 3, 0, 0, 5, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 3, 3, 2, 2, ~
-* WHERE_n_of_attribs_of_type__integer           <dbl> 4, 1, 1, 1, 3, 3, 0, 3, 1, 1, 2, 0, 1, 0, 0, 3, 3, 4, 1, ~
-* WHERE_n_of_attribs_of_type__numeric           <dbl> 2, 0, 3, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, ~
-* WHERE_n_of_attribs_of_type__character         <dbl> 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, ~
-* WHERE_n_of_attribs_of_type__date              <dbl> 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, ~
-* WHERE_n_of_pkey_attribs                       <dbl> 2, 0, 0, 0, 1, 1, 0, 1, 0, 1, 2, 0, 0, 0, 0, 3, 1, 2, 0, ~
-* WHERE_n_of_connect_OR                         <dbl> 7, 0, 2, 4, 7, 5, 0, 4, 2, 2, 3, 0, 0, 0, 0, 3, 5, 5, 1, ~
-* WHERE_n_of_operators__between                 <dbl> 1, 1, 1, 3, 1, 4, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 2, 1, ~
-* WHERE_n_of_operators__greater_or_less         <dbl> 3, 0, 1, 0, 6, 2, 1, 1, 3, 1, 3, 0, 0, 1, 0, 5, 6, 3, 0, ~
-* WHERE_n_of_operators__in                      <dbl> 2, 0, 0, 1, 0, 1, 0, 2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, ~
-* WHERE_n_of_operators__like                    <dbl> 1, 0, 0, 1, 1, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 2, ~
-* WHERE_n_of_non_aggr_func__ABS                 <dbl> 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, ~
-* WHERE_n_of_non_aggr_func__LOG                 <dbl> 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, ~
-* WHERE_n_of_non_aggr_func__YEAR                <dbl> 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ~
-* WHERE_n_of_non_aggr_func__FLOOR               <dbl> 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ~
-* WHERE_n_of_non_aggr_func__DOW                 <dbl> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, ~
-* WHERE_n_of_non_aggr_func__SQRT                <dbl> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, ~
-* WHERE_n_of_non_aggr_func__DAY                 <dbl> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ~
-* WHERE_n_of_non_aggr_func__ROUND               <dbl> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ~
-* WHERE_n_of_non_aggr_func__MONTH               <dbl> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ~
-* WHERE_n_of_non_aggr_func__TRUNC               <dbl> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ~
-* WHERE_n_of_all_non_aggr_func                  <dbl> 3, 0, 0, 0, 1, 2, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, ~
+* 
+* _WHERE_n_of_predicates_ - number of all predicates declared in the main WHERE clause
+* _WHERE_n_of_attribs_of_type__character_varying_ - number of attributes of type string with variable length appearing in all predicates in the main WHERE clause
+* _WHERE_n_of_attribs_of_type__integer_ - number of attributes of type integer appearing in all predicates declared in main WHERE 
+* _WHERE_n_of_attribs_of_type__numeric_ - number of attributes of type decimal appearing in all predicates declared in main WHERE
+* _WHERE_n_of_attribs_of_type__character_ - number of attributes of type string with fixed length appearing in all predicates declared in main WHERE
+* _WHERE_n_of_attribs_of_type__date_ - number of attributes of type date appearing in all predicates declared in main WHERE
+* _WHERE_n_of_pkey_attribs_ - number of primary key attributes appearing in all predicates declared in main WHERE
+* _WHERE_n_of_connect_OR_ - number of times the connector OR appears in main WHERE
+* _WHERE_n_of_operators__between_ - number of times the operator BETWEEN appears in main WHERE
+* _WHERE_n_of_operators__greater_or_less_ - number of comparison operators appearing in main WHERE
+* _WHERE_n_of_operators__in_ - number of times the operator IN appears in main WHERE
+* _WHERE_n_of_operators__like_ - number of times the operator LIKE appears in main WHERE
+* _WHERE_n_of_non_aggr_func__ABS_ - number of times the (non-aggregate) function ABS appears in main WHERE
+* _WHERE_n_of_non_aggr_func__LOG_ - number of times the (non-aggregate) function ABS appears in main WHERE
+* _WHERE_n_of_non_aggr_func__YEAR_ - number of times the (non-aggregate) function ABS appears in main WHERE
+* _WHERE_n_of_non_aggr_func__FLOOR_ - number of times the (non-aggregate) function ABS appears in main WHERE
+* _WHERE_n_of_non_aggr_func__DOW_ - number of times the (non-aggregate) function ABS appears in main WHERE
+* _WHERE_n_of_non_aggr_func__SQRT_ - number of times the (non-aggregate) function ABS appears in main WHERE
+* _WHERE_n_of_non_aggr_func__DAY_ - number of times the (non-aggregate) function ABS appears in main WHERE
+* _WHERE_n_of_non_aggr_func__ROUND_ - number of times the (non-aggregate) function ABS appears in main WHERE
+* _WHERE_n_of_non_aggr_func__MONTH_ - number of times the (non-aggregate) function ABS appears in main WHERE
+* _WHERE_n_of_non_aggr_func__TRUNC_ - number of times the (non-aggregate) function ABS appears in main WHERE
+* _WHERE_n_of_all_non_aggr_func_ - total number of non-aggregate functions appearing in the main WHERE
+* 
 * GROUP_BY_n_of_columns                         <dbl> 5, 4, 6, 0, 0, 9, 0, 5, 2, 7, 1, 3, 1, 1, 3, 6, 3, 2, 1, ~
 * HAVING_n_of_main_predicates                   <dbl> 1, 1, 3, 0, 0, 3, 0, 0, 2, 3, 2, 0, 3, 2, 1, 2, 2, 1, 1, ~
+* $ HAVING_n_of_main_predicates__non_scalar_subquery <dbl> 2, 1, 0, 0, 2, 0, 2, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, ~
+* HAVING_n_of_main_predicates__scalar_subquery     <dbl> 1, 3, 3, 1, 2, 0, 0, 0, 3, 2, 0, 0, 0, 0, 0, 3, 0, 0, ~
+* HAVING_n_of_subqueries__non_scalar_subquery      <dbl> 2, 1, 0, 0, 2, 0, 2, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, ~
+* HAVING_n_of_subqueries__scalar_subquery          <dbl> 1, 10, 8, 1, 2, 0, 0, 0, 14, 2, 0, 0, 0, 0, 0, 3, 0, 0~
+* HAVING_n_of_processed_rows_by_subqueries         <dbl> 1047300, 859925, 1640240, 101345, 120, 0, 375820, 0, 1~
+
 * ORDER_BY_n_of_columns                         <dbl> 1, 2, 0, 0, 0, 2, 1, 1, 1, 2, 1, 2, 1, 1, 1, 3, 1, 1, 1, ~
 * limit                                         <dbl> 328, 983, 400, 541, 153, 89, 462, 967, 443, 57, 734, 207,~
 * offset                                        <dbl> 0, 558, 561, 198, 0, 0, 0, 94, 826, 0, 0, 0, 378, 0, 45, ~
+
