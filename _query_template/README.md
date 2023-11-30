@@ -1,25 +1,15 @@
 ### Here is a typical SQL query
 ![A PostgreSQL Query](https://github.com/marinfotache/SQL-Queries-for-TPC-H/blob/main/_query_template/Q2311052230000015.pdf)
 
-<font size="1"> This is my text number1</font> 
-
- <font size="2"> This is my text number 2 </font>
- 
- <font size="3"> This is my text number 3</font> 
- 
- <font size="4"> This is my text number 4</font> 
- 
- <font size="5"> This is my text number 5</font> 
- 
- <font size="6"> This is my text number 6</font>
 
 ### Query parameters stored in the metadata (.xlsx) files
+
 * _query_id_ - unique identifier of the query                                      
 * _scale_factor_ - the database size                                 
 * _scenario_ - see `_scenarios_for_query_generation` section                                     
-*
+
 * _SELECT_n_of_columns_ - number of columns declared in main SELECT (number of columns in the query result)                     
-* _SELECT_n_of_non_aggr_func__UPPER_ - number of times the (non-aggregate) function `UPPER` appears in the main SELECT clause               
+* _SELECT_n_of_non_aggr_func__UPPER_ - number of times the (non-aggregate) function `UPPER` appears in the main SELECT clause
 * _SELECT_n_of_non_aggr_func__LOWER_ - number of times function `LOWER` appears in main SELECT                
 * _SELECT_n_of_non_aggr_func__LTRIM_ - number of times function `LTRIM` appears in main SELECT                 
 * _SELECT_n_of_non_aggr_func__SUBSTR_ - number of times function `SUBSTR` appears in main SELECT    
@@ -42,7 +32,7 @@
 * _SELECT_n_of_aggr_func__SUM_  - number of times the aggregate function `SUM` appears in main SELECT 
 * _SELECT_n_of_aggr_func__COUNT_DISTINCT_ - number of times the aggregate function `COUNT DISTINCT` appears in main SELECT  
 * _SELECT_n_of_all_aggr_func_ - total number of aggregate functions appearing in the main SELECT
-*
+
 * _FROM_n_of_join_paths_ - number of join paths included in the main FROM clause
 * _FROM_n_of_super_joins__FULL_ - number of times the join paths are FULL OUTER JOIN-ed in the main FROM clause
 * _FROM_n_of_super_joins__LEFT_ - number of times the join paths are LEFT OUTER JOIN-ed in the main FROM clause
@@ -50,7 +40,7 @@
 * _FROM_n_of_joins__INNER_ - number of INNER JOINs in the main FROM clause
 * _FROM_n_of_joins__RIGHT_ - number of RIGHT OUTER JOINs in the main FROM clause
 * _FROM_n_of_processed_rows_ - total number of records for all tables appearing in the main FROM clause
-* 
+  
 * _WHERE_n_of_predicates_ - number of all predicates declared in the main WHERE clause
 * _WHERE_n_of_attribs_of_type__character_varying_ - number of attributes of type string with variable length appearing in all predicates in the main WHERE clause
 * _WHERE_n_of_attribs_of_type__integer_ - number of attributes of type integer appearing in all predicates declared in main WHERE 
@@ -74,7 +64,7 @@
 * _WHERE_n_of_non_aggr_func__MONTH_ - number of times the (non-aggregate) function ABS appears in main WHERE
 * _WHERE_n_of_non_aggr_func__TRUNC_ - number of times the (non-aggregate) function ABS appears in main WHERE
 * _WHERE_n_of_all_non_aggr_func_ - total number of non-aggregate functions appearing in the main WHERE
-* 
+  
 * GROUP_BY_n_of_columns                         <dbl> 5, 4, 6, 0, 0, 9, 0, 5, 2, 7, 1, 3, 1, 1, 3, 6, 3, 2, 1, ~
 * HAVING_n_of_main_predicates                   <dbl> 1, 1, 3, 0, 0, 3, 0, 0, 2, 3, 2, 0, 3, 2, 1, 2, 2, 1, 1, ~
 * HAVING_n_of_main_predicates__non_scalar_subquery <dbl> 2, 1, 0, 0, 2, 0, 2, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, ~
