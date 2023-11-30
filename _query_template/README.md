@@ -2,34 +2,34 @@
 ![PostgreSQL](https://github.com/marinfotache/SQL-Queries-for-TPC-H/blob/main/_query_template/Q2311052230000015.pdf)
 
 
-### Query parameters stored in metadata (.xlsx) files
+### Query parameters stored in the metadata (.xlsx) files
 * _query_id_ - unique identifier of the query                                      
 * _scale_factor_ - the database size                                 
 * _scenario_ - see `scenarios` section                                     
-* _SELECT_n_of_columns_ - number of columns declared in SELECT (number of columns in the query result)                         
-* _SELECT_n_of_non_aggr_func__UPPER_ - number of times function UPPER appears in the SELECT clause               
-* _SELECT_n_of_non_aggr_func__LOWER_ - number of times function UPPER appears in the SELECT clause                
-* _SELECT_n_of_non_aggr_func__LTRIM_ - number of times function UPPER appears in the SELECT clause                 
-* _SELECT_n_of_non_aggr_func__SUBSTR_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_non_aggr_func__DAY_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_non_aggr_func__LOG_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_non_aggr_func__MONTH_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_non_aggr_func__RTRIM_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_non_aggr_func__YEAR_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_non_aggr_func__ABS_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_non_aggr_func__SQRT_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_non_aggr_func__FLOOR_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_non_aggr_func__ROUND_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_non_aggr_func__DOW_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_non_aggr_func__TRUNC_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_all_non_aggr_func_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_aggr_func__MIN_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_aggr_func__COUNT_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_aggr_func__AVG_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_aggr_func__MAX_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_aggr_func__SUM_  - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_aggr_func__COUNT_DISTINCT_ - number of times function UPPER appears in the SELECT clause   
-* _SELECT_n_of_all_aggr_func_ - number of times function UPPER appears in the SELECT clause   
+* _SELECT_n_of_columns_ - number of columns declared in main SELECT (number of columns in the query result)                         
+* _SELECT_n_of_non_aggr_func__UPPER_ - number of times function `UPPER` appears in the main SELECT clause               
+* _SELECT_n_of_non_aggr_func__LOWER_ - number of times function `LOWER` appears in main SELECT                
+* _SELECT_n_of_non_aggr_func__LTRIM_ - number of times function `LTRIM` appears in main SELECT                 
+* _SELECT_n_of_non_aggr_func__SUBSTR_ - number of times function `SUBSTR` appears in main SELECT    
+* _SELECT_n_of_non_aggr_func__DAY_ - number of times function `EXTRACT DAY FROM...` appears in main SELECT   
+* _SELECT_n_of_non_aggr_func__LOG_ - number of times function `LOG` appears in main SELECT   
+* _SELECT_n_of_non_aggr_func__MONTH_ - number of times function `EXTRACT MONTH FROM...`  appears in main SELECT   
+* _SELECT_n_of_non_aggr_func__RTRIM_ - number of times function RTRIM appears in main SELECT    
+* _SELECT_n_of_non_aggr_func__YEAR_ - number of times function `EXTRACT YEAR FROM...`  appears in main SELECT    
+* _SELECT_n_of_non_aggr_func__ABS_ - number of times function `ABS` appears in main SELECT   
+* _SELECT_n_of_non_aggr_func__SQRT_ - number of times function `SQRT` appears in main SELECT   
+* _SELECT_n_of_non_aggr_func__FLOOR_ - number of times function `FLOOR` appears in main SELECT   
+* _SELECT_n_of_non_aggr_func__ROUND_ - number of times function `ROUND` appears in main SELECT    
+* _SELECT_n_of_non_aggr_func__DOW_ - number of times function `DOW` (Day of the Wook) appears in main SELECT   
+* _SELECT_n_of_non_aggr_func__TRUNC_ - number of times function `TRUNC` appears in main SELECT   
+* _SELECT_n_of_all_non_aggr_func_ - number of all non-aggregate functions (from `UPPER` to `TRUNC`) appearing in main SELECT   
+* _SELECT_n_of_aggr_func__MIN_ - number of times function UPPER appears in main SELECT   
+* _SELECT_n_of_aggr_func__COUNT_ - number of times function UPPER appears in main SELECT   
+* _SELECT_n_of_aggr_func__AVG_ - number of times function UPPER appears in main SELECT   
+* _SELECT_n_of_aggr_func__MAX_ - number of times function UPPER appears in main SELECT   
+* _SELECT_n_of_aggr_func__SUM_  - number of times function UPPER appears in main SELECT    
+* _SELECT_n_of_aggr_func__COUNT_DISTINCT_ - number of times function UPPER appears in main SELECT   
+* _SELECT_n_of_all_aggr_func_ - number of times function UPPER appears in main SELECT   
 * FROM_n_of_join_paths                          <dbl> 6, 1, 3, 4, 4, 4, 2, 6, 3, 5, 1, 3, 1, 1, 3, 6, 5, 3, 1, ~
 * FROM_n_of_super_joins__FULL                   <dbl> 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 2, 1, 0, 0, ~
 * FROM_n_of_super_joins__LEFT                   <dbl> 2, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, ~
