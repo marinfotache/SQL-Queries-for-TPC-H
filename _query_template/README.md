@@ -48,21 +48,21 @@
 * _WHERE_n_of_attribs_of_type__character_ - number of attributes of type string with fixed length appearing in all predicates declared in main WHERE
 * _WHERE_n_of_attribs_of_type__date_ - number of attributes of type date appearing in all predicates declared in main WHERE
 * _WHERE_n_of_pkey_attribs_ - number of primary key attributes appearing in all predicates declared in main WHERE
-* _WHERE_n_of_connect_OR_ - number of times the connector OR appears in main WHERE
-* _WHERE_n_of_operators__between_ - number of times the operator BETWEEN appears in main WHERE
+* _WHERE_n_of_connect_OR_ - number of times the connector `OR` appears in main WHERE
+* _WHERE_n_of_operators__between_ - number of times the operator `BETWEEN` appears in main WHERE
 * _WHERE_n_of_operators__greater_or_less_ - number of comparison operators appearing in main WHERE
-* _WHERE_n_of_operators__in_ - number of times the operator IN appears in main WHERE
-* _WHERE_n_of_operators__like_ - number of times the operator LIKE appears in main WHERE
-* _WHERE_n_of_non_aggr_func__ABS_ - number of times the (non-aggregate) function ABS appears in main WHERE
-* _WHERE_n_of_non_aggr_func__LOG_ - number of times the (non-aggregate) function ABS appears in main WHERE
-* _WHERE_n_of_non_aggr_func__YEAR_ - number of times the (non-aggregate) function ABS appears in main WHERE
-* _WHERE_n_of_non_aggr_func__FLOOR_ - number of times the (non-aggregate) function ABS appears in main WHERE
-* _WHERE_n_of_non_aggr_func__DOW_ - number of times the (non-aggregate) function ABS appears in main WHERE
-* _WHERE_n_of_non_aggr_func__SQRT_ - number of times the (non-aggregate) function ABS appears in main WHERE
-* _WHERE_n_of_non_aggr_func__DAY_ - number of times the (non-aggregate) function ABS appears in main WHERE
-* _WHERE_n_of_non_aggr_func__ROUND_ - number of times the (non-aggregate) function ABS appears in main WHERE
-* _WHERE_n_of_non_aggr_func__MONTH_ - number of times the (non-aggregate) function ABS appears in main WHERE
-* _WHERE_n_of_non_aggr_func__TRUNC_ - number of times the (non-aggregate) function ABS appears in main WHERE
+* _WHERE_n_of_operators__in_ - number of times the operator `IN` appears in main WHERE
+* _WHERE_n_of_operators__like_ - number of times the operator `LIKE` appears in main WHERE
+* _WHERE_n_of_non_aggr_func__ABS_ - number of times the (non-aggregate) function `ABS` appears in main WHERE
+* _WHERE_n_of_non_aggr_func__LOG_ - number of times function `LOG` appears in main WHERE
+* _WHERE_n_of_non_aggr_func__YEAR_ - number of times function `EXTRACT YEAR FROM` appears in main WHERE
+* _WHERE_n_of_non_aggr_func__FLOOR_ - number of times function `FLOOR` appears in main WHERE
+* _WHERE_n_of_non_aggr_func__DOW_ - number of times function `EXTRACT DOW FROM...` appears in main WHERE
+* _WHERE_n_of_non_aggr_func__SQRT_ - number of times function `SQRT` appears in main WHERE
+* _WHERE_n_of_non_aggr_func__DAY_ - number of times function `EXTRACT DAY FROM...` appears in main WHERE
+* _WHERE_n_of_non_aggr_func__ROUND_ - number of times function `ROUND` appears in main WHERE
+* _WHERE_n_of_non_aggr_func__MONTH_ - number of times function `EXTRACT MONTH FROM...` appears in main WHERE
+* _WHERE_n_of_non_aggr_func__TRUNC_ - number of times function `TRUNC` appears in main WHERE
 * _WHERE_n_of_all_non_aggr_func_ - total number of non-aggregate functions appearing in the main WHERE
   
 * GROUP_BY_n_of_columns                         <dbl> 5, 4, 6, 0, 0, 9, 0, 5, 2, 7, 1, 3, 1, 1, 3, 6, 3, 2, 1, ~
