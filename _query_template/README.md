@@ -5,7 +5,7 @@
 ### Query parameters stored in the metadata (.xlsx) files
 
 * _query_id_ - unique identifier of the query                                      
-* _scale_factor_ - the database size                                 
+* _scale_factor_ - the database size, expressed in GB                                
 * _scenario_ - see `_scenarios_for_query_generation` section                                     
 
 * _SELECT_n_of_columns_ - number of columns declared in main SELECT (number of columns in the query result)                     
