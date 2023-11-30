@@ -1,13 +1,12 @@
-### Here is a typical SQL query:
+### Here is a typical SQL query
 ![PostgreSQL](https://github.com/marinfotache/SQL-Queries-for-TPC-H/blob/main/_query_template/Q2311052230000015.pdf)
 
 
-### The query parameters stored in metadata (.xlsx) files:
-
-* query_id                                      <chr> "2311121014000001", "2311121014000002", "2311121014000003~
-* scale_factor                                  <dbl> 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 50~
-* scenario                                      <chr> "1-6jp_rjjp__g__h0ss_h0nss", "1-6jp_rjjp__g__h0ss_h0nss",~
-* SELECT_n_of_columns                           <dbl> 7, 5, 9, 90, 38, 15, 25, 6, 5, 8, 5, 7, 2, 2, 8, 14, 6, 7~
+### Query parameters stored in metadata (.xlsx) files
+* query_id - unique identifier of the query                                      
+* scale_factor - the database size                                 
+* scenario - see `scenarios` section                                     
+* SELECT_n_of_columns - number of columns declared in SELECT (number of columns in the query result)                         
 * SELECT_n_of_non_aggr_func__UPPER              <dbl> 1, 0, 1, 0, 1, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 2, 0, 1, ~
 * SELECT_n_of_non_aggr_func__LOWER              <dbl> 0, 1, 0, 0, 5, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, ~
 * SELECT_n_of_non_aggr_func__LTRIM              <dbl> 0, 0, 1, 0, 3, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 2, 1, 0, 0, ~
