@@ -1,5 +1,5 @@
 ### Here is a typical SQL query
-![A PostgreSQL Query](https://github.com/marinfotache/SQL-Queries-for-TPC-H/blob/main/_query_template/Q2311052230000015.pdf)
+![A PostgreSQL Query](https://github.com/marinfotache/SQL-Queries-for-TPC-H/blob/main/_query_template_and_parameters/Q2311052230000015.pdf)
 
 
 ### Query parameters stored in the metadata (.xlsx) files
