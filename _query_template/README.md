@@ -3,7 +3,6 @@
 
 
 ### Query parameters stored in the metadata (.xlsx) files
-<h6>
 * _query_id_ - unique identifier of the query                                      
 * _scale_factor_ - the database size                                 
 * _scenario_ - see `_scenarios_for_query_generation` section                                     
@@ -76,4 +75,3 @@
 * ORDER_BY_n_of_columns                         <dbl> 1, 2, 0, 0, 0, 2, 1, 1, 1, 2, 1, 2, 1, 1, 1, 3, 1, 1, 1, ~
 * limit                                         <dbl> 328, 983, 400, 541, 153, 89, 462, 967, 443, 57, 734, 207,~
 * offset                                        <dbl> 0, 558, 561, 198, 0, 0, 0, 94, 826, 0, 0, 0, 378, 0, 45, ~
-</h6>
