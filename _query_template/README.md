@@ -3,11 +3,11 @@
 
 
 ### Query parameters stored in metadata (.xlsx) files
-* __query_id__ - unique identifier of the query                                      
-* scale_factor - the database size                                 
-* scenario - see `scenarios` section                                     
-* SELECT_n_of_columns - number of columns declared in SELECT (number of columns in the query result)                         
-* SELECT_n_of_non_aggr_func__UPPER              <dbl> 1, 0, 1, 0, 1, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 2, 0, 1, ~
+* _query_id_ - unique identifier of the query                                      
+* _scale_factor_ - the database size                                 
+* _scenario_ - see `scenarios` section                                     
+* _SELECT_n_of_columns_ - number of columns declared in SELECT (number of columns in the query result)                         
+* _SELECT_n_of_non_aggr_func__UPPER_ - number of times function UPPER appears in the SELECT clause               
 * SELECT_n_of_non_aggr_func__LOWER              <dbl> 0, 1, 0, 0, 5, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, ~
 * SELECT_n_of_non_aggr_func__LTRIM              <dbl> 0, 0, 1, 0, 3, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 2, 1, 0, 0, ~
 * SELECT_n_of_non_aggr_func__SUBSTR             <dbl> 0, 0, 1, 0, 2, 1, 4, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, ~
