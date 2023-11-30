@@ -1,7 +1,5 @@
 ### Here is a typical SQL query
-![PostgreSQL](https://github.com/marinfotache/SQL-Queries-for-TPC-H/blob/main/_query_template/Q2311052230000015.pdf)
-
-![PostgreSQL](/_query_template/Q2311052230000015.pdf)
+![A PostgreSQL Query](https://github.com/marinfotache/SQL-Queries-for-TPC-H/blob/main/_query_template/Q2311052230000015.pdf)
 
 
 ### Query parameters stored in the metadata (.xlsx) files
@@ -31,14 +29,14 @@
 * _SELECT_n_of_aggr_func__MAX_ - number of times the aggregate function `MAX` appears in main SELECT  
 * _SELECT_n_of_aggr_func__SUM_  - number of times the aggregate function `SUM` appears in main SELECT 
 * _SELECT_n_of_aggr_func__COUNT_DISTINCT_ - number of times the aggregate function `COUNT DISTINCT` appears in main SELECT  
-* _SELECT_n_of_all_aggr_func_ - number of times an aggregate function appears in the main SELECT   
-* FROM_n_of_join_paths                          <dbl> 6, 1, 3, 4, 4, 4, 2, 6, 3, 5, 1, 3, 1, 1, 3, 6, 5, 3, 1, ~
-* FROM_n_of_super_joins__FULL                   <dbl> 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 2, 1, 0, 0, ~
-* FROM_n_of_super_joins__LEFT                   <dbl> 2, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, ~
-* FROM_n_of_super_joins__RIGHT                  <dbl> 1, 0, 0, 1, 2, 1, 0, 0, 1, 4, 0, 0, 0, 0, 1, 1, 2, 0, 0, ~
-* FROM_n_of_joins__INNER                        <dbl> 6, 2, 5, 6, 1, 4, 2, 5, 2, 3, 2, 3, 2, 0, 5, 7, 2, 2, 0, ~
-* FROM_n_of_joins__RIGHT                        <dbl> 4, 1, 1, 2, 5, 7, 2, 6, 2, 5, 2, 6, 0, 2, 2, 8, 5, 3, 2, ~
-* FROM_n_of_processed_rows                      <dbl> 15610113018, 825000030, 6880056539, 6225028302, 615002829~
+* _SELECT_n_of_all_aggr_func_ - number of aggregate functions appearing in the main SELECT   
+* _FROM_n_of_join_paths_ - number of join paths included in the main FROM clause
+* _FROM_n_of_super_joins__FULL_ - number of times the join paths are FULL OUTER JOIN-ed in the main FROM clause
+* _FROM_n_of_super_joins__LEFT_ - number of times the join paths are LEFT OUTER JOIN-ed in the main FROM clause
+* _FROM_n_of_super_joins__RIGHT_ - number of times the join paths are RIGHT OUTER JOIN-ed in the main FROM clause
+* _FROM_n_of_joins__INNER_ - number of INNER JOINs in the main FROM clause
+* _FROM_n_of_joins__RIGHT_ - number of RIGHT OUTER JOINs in the main FROM clause
+* _FROM_n_of_processed_rows_ - total number of records for all tables appearing in the main FROM clause
 * WHERE_n_of_predicates                         <dbl> 9, 1, 5, 7, 8, 7, 2, 7, 5, 4, 6, 3, 2, 1, 0, 7, 8, 8, 3, ~
 * WHERE_n_of_attribs_of_type__character_varying <dbl> 3, 0, 0, 5, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 3, 3, 2, 2, ~
 * WHERE_n_of_attribs_of_type__integer           <dbl> 4, 1, 1, 1, 3, 3, 0, 3, 1, 1, 2, 0, 1, 0, 0, 3, 3, 4, 1, ~
