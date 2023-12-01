@@ -48,8 +48,18 @@
     <th>groups may appear</th>
     <th>HAVING-no scalar subqueries, no non-scalar subqueries</th>
   </tr>
+  <tr>
+    <td><a href="https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-1%20JPs/HAVING-max%203%20scalar%20s-q%2C%20max%203%20non-scalar%20s-q">1-1jp__g__h0-3ss_h0-3nss</a></td>
+    <th>FROM has 1-1 JPs</th>
+    <th>1</th>
+    <th>1</th>
+    <th> </th>
+    <th>groups may appear</th>
+    <th>HAVING-max 3 scalar subqueries, max 3 non-scalar subqueries</th>
+  </tr>
     
 </table>
+
 
 
 
