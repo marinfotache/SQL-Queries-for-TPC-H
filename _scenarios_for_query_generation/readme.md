@@ -20,7 +20,7 @@
 
 ### List of scenarios with generated queries
 
-<table style="width:50%">
+<table style="width:100%">
   <tr>
     <th>scenario_code</th>
     <th>FROM</th>
@@ -29,6 +29,7 @@
     <th>how_join_paths_are_joined</th>
     <th>aggregation</th>
     <th>group_by_and_having</th>
+    <th>link</th>
   </tr>
   <tr>
     <th>1-1jp__ng</th>
@@ -38,6 +39,8 @@
     <th> </th>
     <th>no groups</th>
     <th>no groups</th>
+    <td>[](https://www.uaic.ro)</td>
+      
   </tr>
     
 </table>
