@@ -39,12 +39,10 @@
     <th> </th>
     <th>no groups</th>
     <th>no groups</th>
-    <td>[link](FROM has 1-1 JPs/no groups)</td>
+    <td>[link](#FROM has 1-1 JPs/no groups)</td>
   </tr>
     
 </table>
-
-
 
 <table style="width:100%">
   <tr>
