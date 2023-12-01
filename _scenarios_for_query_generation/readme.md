@@ -22,8 +22,8 @@
 
 <table style="width:100%">
   <tr>
-    <th>       scenario_code       </th>
-    <th>     FROM     </th>
+    <th>         scenario_code         </th>
+    <th>        FROM       </th>
     <th>min_n_of_join_paths</th>
     <th>max_n_of_join_paths</th>
     <th>    how_join_paths_are_joined   </th>
