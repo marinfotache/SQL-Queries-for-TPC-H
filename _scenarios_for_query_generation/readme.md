@@ -39,10 +39,12 @@
     <th> </th>
     <th>no groups</th>
     <th>no groups</th>
-    <td>https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-1%20JPs/no%20groups</td>
+    <td><a href="[http://example.com/](https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-1%20JPs/no%20groups)">Link/</a></td>
   </tr>
     
 </table>
+
+
 
 
 
