@@ -16,7 +16,7 @@ Each query set (in a .csv file) contains 1000 queries for one of the following s
 For the query structure and the main vocabulary (used for defining the scenarios for query generation), see section [_query_template_and_parameters](https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/_query_template_and_parameters)
 
 ### Main scenarios for query generation
-Each query set is generated following a specific scenario which basically controls the query complexity.<br>
+Each query set is generated following a specific scenario which controls the query complexity.<br>
 For details, see section [_scenarios_for_query_generation](https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/_scenarios_for_query_generation)
 
 ### Resources:
@@ -25,9 +25,9 @@ For details, see section [_scenarios_for_query_generation](https://github.com/ma
 
   
 ### Other papers using the previous and the current versions of the query generator:
-    -
-    -
-    -
+* Fotache, M., Munteanu, A., Strîmbei, C., Hrubaru, I. (2023)  - Framework for the Assessment of Data Masking Performance Penalties in SQL Database Servers. Case Study: Oracle, IEEE Access (eISSN: 2169-3536), Vol.11, pp. 18520-18541, [DOI: 10.1109/ACCESS.2023.3247486](https://ieeexplore.ieee.org/document/10049552)
+* 
+
 
 ### Acknowledgement:
 Physical resources for deploying the query generator of this repository were provided by the Competitiveness Operational Program Romania, under project SMIS 124759 - RaaS-IS (Research as a Service Iasi).
