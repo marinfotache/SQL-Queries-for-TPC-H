@@ -24,8 +24,8 @@
   <tr>
     <th>__________scenario_code__________</th>
     <th>_____summary_of_FROM______</th>
-    <th>min_n_of_join_paths</th>
-    <th>max_n_of_join_paths</th>
+    <th>min_number of join_paths</th>
+    <th>max_number of join_paths</th>
     <th>______how_join_paths_are_joined______</th>
     <th>aggregation</th>
     <th>_____group_by_and_having______</th>
