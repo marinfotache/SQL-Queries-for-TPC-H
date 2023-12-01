@@ -33,6 +33,6 @@ A scenario is a combination of the following query parameters:
   <tr>
     <td>Centro comercial Moctezuma</td>
     <td>Francisco Chang</td>
-    <td>[Mexico](htttp://wwww.uaic.ro)</td>
+    <td>[Mexico]([htttp://wwww.uaic.ro](https://www.uaic.ro))</td>
   </tr>
 </table>
