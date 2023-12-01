@@ -1,7 +1,7 @@
 ### Scenarios
 *  Are designed to control the query parameters variability.
 *  Manage the complexity of the generated query
-*  Sometimes they are associated with particular SQL dialects (e.g., SparSQL)
+*  Sometimes they are also associated with particular SQL dialects (e.g., SparSQL)
 
 ### Main parameters which define a scenario, by the query clause/section
 * FROM:
