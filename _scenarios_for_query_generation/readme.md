@@ -39,7 +39,17 @@
     <th>no groups</th>
     <th>no groups</th>
   </tr>
+  <tr>
+    <td><a href="https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-1%20JPs/HAVING-no%20scalar%20s-q%2C%20no%20non-scalar%20s-q">1-1jp__g__h0ss_h0nss</a></td>
+    <th>FROM has 1-1 JPs</th>
+    <th>1</th>
+    <th>1</th>
+    <th> </th>
+    <th>groups may appear</th>
+    <th>HAVING-no scalar subqueries, no non-scalar subqueries</th>
+  </tr>
     
 </table>
 
- 
+
+
