@@ -30,6 +30,16 @@
     <th>aggregation</th>
     <th>group_by_and_having</th>
   </tr>
+  <tr>
+    <th>1-1jp__ng</th>
+    <th>FROM has 1-1 JPs</th>
+    <th>1</th>
+    <th>1</th>
+    <th> </th>
+    <th>no groups</th>
+    <th>no groups</th>
+  </tr>
+    
 </table>
 
 
