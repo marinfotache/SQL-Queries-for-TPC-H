@@ -20,7 +20,7 @@
 
 ### List of scenarios with generated queries
 
-<table style="width:100%">
+<table style="width:50%">
   <tr>
     <th>scenario_code</th>
     <th>FROM</th>
