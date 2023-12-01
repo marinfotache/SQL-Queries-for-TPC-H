@@ -38,31 +38,8 @@
     <th> </th>
     <th>no groups</th>
     <th>no groups</th>
-    <td><a href="https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-1%20JPs/no%20groups">Link/</a></td>
   </tr>
     
 </table>
-
-
-
-<table style="width:100%">
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>[Mexico]([htttp://wwww.uaic.ro](https://www.uaic.ro))</td>
-  </tr>
-</table>
-
-
 
  
