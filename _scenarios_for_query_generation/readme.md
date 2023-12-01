@@ -1,22 +1,24 @@
-A scenario is a combination of the following query parameters:
+### Scenarios
+*  Are designed to control the query parameters variability.
+*  Manage the complexity of the generated query
+*  Sometimes they are associated with particular SQL dialects (e.g., SparSQL)
 
-- Join paths cardinality and join type: appears at the beginning of the scenario code and is defined by:
-  * Minimum number of join paths included in a query. Values: [1, 2, 3]
-  * Maximum number of join paths included in a query. Range: [1, 2, 3, 6]
-  * How the join paths may be joined (of course, for queries containing at least two join paths):
-    - only by the primary key (rjjp - restricted join of the join paths)
-    - by any attribute, not only the primary keys (ujjp - unrestricted join of the join paths)
+### Main parameters which define a scenario, by the query clause/section
+* FROM:
+    - The minimum number of join paths included in a query (_min_n_of_join_paths_)
+    - The maximum number of join paths included in a query (_max_n_of_join_paths_)
+    - How the join paths may be joined with the linking table:
+      * pklt - only by the primary key of the linking table (rjjp - restricted join of the join paths)
+      * aalt - by any attribute of the linking table (ujjp - unrestricted join of the join paths)
+* GROUP BY: whether this clause may appear (_aggregation_)
+* HAVING:
+    - The minimal number of predicates using scalar subqueries
+    - The maximal number of predicates using scalar subqueries
+    - The minimal number of predicates using non-scalar subqueries
+    - The maximal number of predicates using non-scalar subqueries
 
-  Examples of scenarios:
-* 1-1jp__g__h0-3ss_h0-3nss - queries may contain only one join path
-* 1-3jp_rjjp__g__h0-3ss_h0-3nss - ...
 
 
-- the query may contain GROUP BY (value g for GROPU
-
-- the minimum number of scalar subqueries included in clause HAVING (between 0 and 6)
-
-- the minimum number of non-scalar subqueries included in clause HAVING (between 0 and 6)
 
 
 <table style="width:100%">
