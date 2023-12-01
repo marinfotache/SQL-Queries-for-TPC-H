@@ -39,8 +39,7 @@
     <th> </th>
     <th>no groups</th>
     <th>no groups</th>
-    <td>[](https://www.uaic.ro)</td>
-      
+    <td>https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-1%20JPs/no%20groups</td>
   </tr>
     
 </table>
