@@ -39,7 +39,7 @@
     <th> </th>
     <th>no groups</th>
     <th>no groups</th>
-    <td>[link](main/FROM%20has%201-1%20JPs/no%20groups</td>
+    <td>[link](main/FROM%20has%201-1%20JPs/no%20groups)</td>
   </tr>
     
 </table>
