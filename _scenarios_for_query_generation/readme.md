@@ -29,7 +29,7 @@
     <th>how_join_paths_are_joined</th>
     <th>aggregation</th>
     <th>group_by_and_having</th>
-    <th>link</th>
+    <th>                         link                          </th>
   </tr>
   <tr>
     <th>1-1jp__ng</th>
@@ -39,7 +39,7 @@
     <th> </th>
     <th>no groups</th>
     <th>no groups</th>
-    <td>This is the [link](FROM%20has%201-1%20JPs/no%20groups)</td>
+    <td>https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-1%20JPs/no%20groups</td>
   </tr>
     
 </table>
