@@ -22,13 +22,13 @@
 
 <table style="width:100%">
   <tr>
-    <th>    scenario_code    </th>
-    <th>FROM</th>
+    <th>       scenario_code       </th>
+    <th>     FROM     </th>
     <th>min_n_of_join_paths</th>
     <th>max_n_of_join_paths</th>
-    <th>how_join_paths_are_joined</th>
+    <th>    how_join_paths_are_joined   </th>
     <th>aggregation</th>
-    <th>group_by_and_having</th>
+    <th>      group_by_and_having      </th>
   </tr>
   <tr>
     <td><a href="https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-1%20JPs/no%20groups">1-1jp__ng</a></td>
