@@ -20,8 +20,8 @@ Each query set is generated following a specific scenario which controls the que
 For details, see section [_scenarios_for_query_generation](https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/_scenarios_for_query_generation)
 
 ### Resources:
-  * [TPC-H Benchmark specification:](https://www.tpc.org/TPC_Documents_Current_Versions/pdf/TPC-H_v3.0.1.pdf)
-  * [jMeter home page:](https://jmeter.apache.org)
+  * [TPC-H Benchmark specification](https://www.tpc.org/TPC_Documents_Current_Versions/pdf/TPC-H_v3.0.1.pdf)
+  * [jMeter home page](https://jmeter.apache.org)
 
   
 ### Papers using previous or current versions of the query generator:
