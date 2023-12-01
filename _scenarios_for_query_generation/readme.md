@@ -24,8 +24,8 @@
   <tr>
     <th>__________scenario_code__________</th>
     <th>_____summary_of_FROM______</th>
-    <th>min_number of join_paths</th>
-    <th>max_number of join_paths</th>
+    <th>min number of join_paths</th>
+    <th>max number of join_paths</th>
     <th>______how_join_paths_are_joined______</th>
     <th>aggregation</th>
     <th>_____group_by_and_having______</th>
@@ -93,9 +93,26 @@
     <th>groups may appear</th>
     <th>HAVING-no scalar subqueries, no non-scalar subqueries</th>
   </tr>
+  <tr>
+    <td><a href="https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-3%20JPs-pklt/HAVING-max%203%20scalar%20s-q%2C%20no%20non-scalar%20s-q">1-3jp_rjjp__g__h0-3ss_h0nss</a></td>
+    <th>FROM has 1-3 JPs-pklt</th>
+    <th>1</th>
+    <th>3</th>
+    <th>the join paths are joined only by the primary key of the linking tables</th>
+    <th>groups may appear</th>
+    <th>HAVING-max 3 scalar subqueries, no non-scalar subqueries</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-3%20JPs-pklt/HAVING-max%203%20scalar%20s-q%2C%20max%203%20non-scalar%20s-q">1-3jp_rjjp__g__h0-3ss_h0-3nss</a></td>
+    <th>FROM has 1-3 JPs-pklt</th>
+    <th>1</th>
+    <th>3</th>
+    <th>the join paths are joined only by the primary key of the linking tables</th>
+    <th>groups may appear</th>
+    <th>HAVING-max 3 scalar subqueries, max 3 non-scalar subqueries</th>
+  </tr>
     
 </table>
-
 
 
 
