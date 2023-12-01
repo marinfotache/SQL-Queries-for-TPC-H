@@ -84,6 +84,15 @@
     <th>groups may appear</th>
     <th>HAVING-max 3 scalar subqueries, max 3 non-scalar subqueries</th>
   </tr>
+  <tr>
+    <td><a href="https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-3%20JPs-pklt/HAVING-no%20scalar%20s-q%2C%20no%20non-scalar%20s-q">1-3jp_rjjp__g__h0ss_h0nss</a></td>
+    <th>FROM has 1-3 JPs-pklt</th>
+    <th>1</th>
+    <th>3</th>
+    <th>the join paths are joined only by the primary key of the linking tables</th>
+    <th>groups may appear</th>
+    <th>HAVING-no scalar subqueries, no non-scalar subqueries</th>
+  </tr>
     
 </table>
 
