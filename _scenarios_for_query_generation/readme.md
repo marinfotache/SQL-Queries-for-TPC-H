@@ -113,16 +113,57 @@
   </tr>
   <tr>
     <td><a href="https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-6%20JPs-aalt/HAVING-no%20scalar%20s-q%2C%20no%20non-scalar%20s-q">1-6jp_ujjp__g__h0ss_h0nss</a></td>
-    <th>FROM has 1-3 JPs-aalt</th>
+    <th>FROM has 1-6 JPs-aalt</th>
     <th>1</th>
     <th>6</th>
     <th>the join paths are joined by any attribute(s) of the linking table</th>
     <th>groups may appear</th>
     <th>HAVING-no scalar subqueries, no non-scalar subqueries</th>
   </tr>
+  <tr>
+    <td><a href="https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-6%20JPs-aalt/HAVING-max%203%20scalar%20s-q%2C%20no%20non-scalar%20s-q">1-6jp_ujjp__g__h0-3ss_h0nss</a></td>
+    <th>FROM has 1-6 JPs-aalt</th>
+    <th>1</th>
+    <th>6</th>
+    <th>the join paths are joined by any attribute(s) of the linking table</th>
+    <th>groups may appear</th>
+    <th>HAVING-max 3 scalar subqueries, no non-scalar subqueries</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-6%20JPs-aalt/HAVING-max%203%20scalar%20s-q%2C%20max%203%20non-scalar%20s-q">1-6jp_ujjp__g__h0-3ss_h0-3nsss</a></td>
+    <th>FROM has 1-6 JPs-aalt</th>
+    <th>1</th>
+    <th>6</th>
+    <th>the join paths are joined by any attribute(s) of the linking table</th>
+    <th>groups may appear</th>
+    <th>HAVING-max 3 scalar subqueries, max 3 non-scalar subqueries</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-6%20JPs-pklt/HAVING-no%20scalar%20s-q%2C%20no%20non-scalar%20s-q">1-6jp_rjjp__g__h0ss_h0nss</a></td>
+    <th>FROM has 1-6 JPs-pklt</th>
+    <th>1</th>
+    <th>6</th>
+    <th>the join paths are joined only by the primary key of the linking tables</th>
+    <th>groups may appear</th>
+    <th>HAVING-no scalar subqueries, no non-scalar subqueries</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-6%20JPs-pklt/HAVING-max%203%20scalar%20s-q%2C%20no%20non-scalar%20s-q">1-6jp_rjjp__g__h0-3ss_h0nss</a></td>
+    <th>FROM has 1-6 JPs-pklt</th>
+    <th>1</th>
+    <th>6</th>
+    <th>the join paths are joined only by the primary key of the linking tables</th>
+    <th>groups may appear</th>
+    <th>HAVING-max 3 scalar subqueries, no non-scalar subqueries</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/marinfotache/SQL-Queries-for-TPC-H/tree/main/FROM%20has%201-6%20JPs-pklt/HAVING-max%203%20scalar%20s-q%2C%20max%203%20non-scalar%20s-q">1-6jp_rjjp__g__h0-3ss_h0-3nss</a></td>
+    <th>FROM has 1-6 JPs-pklt</th>
+    <th>1</th>
+    <th>6</th>
+    <th>the join paths are joined only by the primary key of the linking tables</th>
+    <th>groups may appear</th>
+    <th>HAVING-max 3 scalar subqueries, max 3 non-scalar subqueries</th>
+  </tr>
     
 </table>
-
-
-
-
