@@ -2,13 +2,13 @@
 ### Parameters defining the current scenario are:
     * FROM has 1-1 JPs
     * groups may appear
-    * HAVING-no scalar s-q, no non-scalar s-q
+    * HAVING-no scalar subqueries, no non-scalar subqueries
 
 ### Here is a typical query of this scenario:<br>
 
 
 
- SELECT lineitem.l_receiptdate AS lineitem__l_receiptdate<br>&emsp; ,lineitem.l_linenumber AS lineitem__l_linenumber<br>&emsp; ,lineitem.l_partkey AS lineitem__l_partkey<br>&emsp; ,COUNT(DISTINCT lineitem.l_returnflag) AS COUNT__DISTINCT__lineitem__l_returnflag<br>FROM<br>&emsp; lineitem <br>WHERE<br>&emsp; lineitem.l_suppkey BETWEEN  13876<br>&emsp; AND 28730 <br>&emsp; OR lineitem.l_linenumber NOT IN  ( 4, 5, 7)  <br>GROUP BY<br>&emsp; lineitem.l_receiptdate <br>&emsp; ,lineitem.l_linenumber <br>&emsp; ,lineitem.l_partkey  <br>HAVING<br>&emsp;  COUNT(DISTINCT lineitem.l_returnflag) not in ( 1, 1, 1, 2, 2, 2, 2, 3, 3 )  or COUNT(DISTINCT lineitem.l_returnflag) >  2   or COUNT(DISTINCT lineitem.l_returnflag) <  3  <br>ORDER BY<br>&emsp; lineitem.l_linenumber DESC <br>OFFSET 760 ROWS <br>FETCH NEXt 60 ROWS ONLY
+ SELECT LOWER(customer.c_phone) AS LOWER__customer__c_phone<br>&emsp; ,MIN(orders.o_shippriority) AS MIN__orders__o_shippriority<br>&emsp; ,MIN(orders.o_orderstatus) AS MIN__orders__o_orderstatus<br>&emsp; ,MIN(orders.o_orderkey) AS MIN__orders__o_orderkey<br>&emsp; ,MIN(LOG(2<br>&emsp; ,orders.o_custkey)) AS MIN__LOG__2__orders__o_custkey<br>FROM<br>&emsp; orders<br>&emsp;INNER JOIN customer ON orders.o_custkey = customer.c_custkey <br>WHERE<br>&emsp; orders.o_custkey <  247865 <br>GROUP BY<br>&emsp;  LOWER(customer.c_phone)  <br>HAVING<br>&emsp;  MIN(orders.o_shippriority) not in ( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 )  or MIN(orders.o_orderkey) >  18920069   and MIN(orders.o_orderstatus) <=  'F'  <br>ORDER BY<br>&emsp; MIN(LOG(2<br>&emsp; ,orders.o_custkey)) DESC<br>&emsp; ,LOWER(customer.c_phone) DESC  <br>LIMIT 83
 
 
 <br><br>
