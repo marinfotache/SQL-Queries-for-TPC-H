@@ -24,7 +24,7 @@ For details, see section [_scenarios_for_query_generation](https://github.com/ma
   * [jMeter home page](https://jmeter.apache.org)
 
   
-### Papers using previous or current versions of the query generator:
+### Papers using previous versions or the current version of the query generator:
 * Fotache, M., Munteanu, A., Strîmbei, C., Hrubaru, I. (2023). _Framework for the Assessment of Data Masking Performance Penalties in SQL Database Servers. Case Study: Oracle_, IEEE Access (eISSN: 2169-3536), Vol.11, pp. 18520-18541, [DOI: 10.1109/ACCESS.2023.3247486](https://ieeexplore.ieee.org/document/10049552)
 * Cluci, M.I., Pinzaru, C., Fotache, M., Rusu, O, and Gasner, P. (2023). _OpenStack in Higher Education and Academic Research: A Case Study on Benchmarking Big Data Processing Tools_, Proc. of the 2023 International Conference on Advanced Scientific Computing (ICASC), 2023, pp. 1-6, [DOI: 10.1109/ICASC58845.2023.10328025](https://ieeexplore.ieee.org/document/10328025)
 * Fotache, M. Cluci, M. -I. (2021). _Big Data Performance in Private Clouds. Some Initial Findings on Apache Spark Clusters Deployed in OpenStack_, Proc. of the 20th RoEduNet Conference: Networking in Education and Research (RoEduNet), 2021, pp. 1-6, [DOI: 10.1109/RoEduNet54112.2021.9638296](https://ieeexplore.ieee.org/document/9638296)
